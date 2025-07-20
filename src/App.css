@@ -1,0 +1,59 @@
+/* RESET & FONT */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  color: #fff;
+}
+
+.App {
+  min-height: 100vh;
+  backdrop-filter: blur(2px); /* flou léger */
+}
+
+.dark {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+/* Topbar */
+.topbar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 20px;
+}
+
+.topbar button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #3b82f6;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.topbar button:hover {
+  background-color: #2563eb;
+}
+
+/* Container principal */
+.container-app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Chaque section comme Hero, About, etc. */
+section {
+  background-color: rgba(0, 0, 0, 0.6); /* fond sombre transparent */
+  padding: 60px 20px;
+  margin: 20px 0;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}

@@ -1,0 +1,29 @@
+.contact-section {
+  padding: 60px 20px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.contact-text {
+  font-size: 18px;
+  color: #555;
+  margin: 15px 0;
+}
+
+.contact-link {
+  color: #007bff;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
